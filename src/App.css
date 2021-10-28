@@ -1,0 +1,44 @@
+.App {
+  margin: 10px auto;
+  width: 350px;
+  height: 450px;
+  text-align: center;
+  padding-top: 20px;
+  border: 1px solid rgb(155, 152, 152);
+  border-radius: 5px;
+}
+
+.one-task {
+  margin: 10px auto;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(155, 152, 152);
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.task-text {
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.delete {
+  color: rgb(221, 90, 90);
+  cursor: pointer;
+}
+
+input {
+  height: 20px;
+  width: 200px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+button {
+  padding: 3px;
+}
+
